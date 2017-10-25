@@ -1,0 +1,3 @@
+@echo on
+REM ########## Step 1 - Restore PostgresSQL DB ##########"C:\Program Files\PostgreSQL\9.6\bin\psql" -U postgres -f "D:\Backups\Atlassian\JIRA\daily_backups\jira_db_backup_jira_data_2017-07-26_15302337\jira_db_2017-07-26_15302337.sql"
+echo off
